@@ -16,16 +16,17 @@ const Services = () => {
           
           <ul className='service__list'>
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Serve as a member of the orientation team for the university.</p>
+              {/* <BiCheck className='service__list-icon'/> */}
+              <p>⚬</p>
+              <p>Analyze quantum capacity bounds using semidefinite programming.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Design, implement, and assist various orientation programs for the class of 2026.</p>
+            <p>⚬</p>
+              <p>Express the capacity of Werner-Helevo channel families in finite dimensions as a solution of an optimization problem.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Trained through course LEAD 140, Harnessing Your Interpersonal Intelligence, to connect with other OLs and get ready for the position.</p>
+            <p>⚬</p>
+              <p>Learn the basics of QIT through research papers. (Quantum systems, states, channels: Choi isomorphism, Krauss representation, Entanglement breaking channel)</p>
             </li>
           </ul>
         </article>
@@ -38,15 +39,11 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <p>⚬</p>
-              <p>Serve as a member of the orientation team for the university.</p>
+              <p>Design, implement, and assist orientation programs and welcoming week events (sights & sounds, new student convocation, campus tours) for over 8000 new students coming to the University.</p>
             </li>
             <li>
               <p>⚬</p>
-              <p>Design, implement, and assist various orientation programs for the class of 2026.</p>
-            </li>
-            <li>
-              <p>⚬</p>
-              <p>Trained through course LEAD 140, Harnessing Your Interpersonal Intelligence, to connect with other OLs and get ready for the position.</p>
+              <p>Training through LEAD 140: Harnessing Your Interpersonal Intelligence to get ready for the position.</p>
             </li>
           </ul>
         </article>
@@ -58,28 +55,16 @@ const Services = () => {
           
           <ul className='service__list'>
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur as d asfh ahwf  has hdasi hiashadipisicing elit.</p>
+            <p>⚬</p>
+              <p>Promote Taiwanese culture awareness through activities with 100+ participants (mid Autumn festival, Chinese New Year, night market).</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>⚬</p>
+              <p>Organize social events to connect people inside of the association.</p>
             </li>
             <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>⚬</p>
+              <p>Assist 200+ incoming students to ensure a smooth transfer.</p>
             </li>
           </ul>
         </article>

@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../asset/self.png'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+// import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import {VscBook} from 'react-icons/vsc'
 
@@ -24,7 +24,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>Research & Group projects</small>
+              <small>Research & Internships</small>
             </article>
 
             <article className='about__card'>
@@ -41,7 +41,7 @@ const About = () => {
           </div>
           <br/>
           <p>
-            I am currently a junior major in Computer Science and Mathematics at the University of Illinois Urbana-Champaign! I'm interested in artificial intelligence, machine learning, full stack development, and data science. I'm open to new opportunities and have strong eager to learn new things.
+            I am a Junior majoring in Computer Science and Mathematics at the University of Illinois Urbana-Champaign! I'm currently a web development intern at ATLAS at UIUC. I'm interested in artificial intelligence, machine learning, full stack development, and data science. I'm open to new opportunities and have strong eager to learn new things.
           </p>
           <br/>
 

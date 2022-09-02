@@ -13,42 +13,42 @@ const data = [
     image: IMG1,
     title: 'Airbnb Review Website',
     github: 'https://github.com/jonathanwangyc/airbnb-reviews-mern',
-    demo: 'https://dribbble.com'
+    demo: 'https://github.com/jonathanwangyc/airbnb-reviews-mern'
   },
   {
     id: 2,
     image: IMG2,
     title: 'Flappy Bird',
     github: 'https://github.com/jonathanwangyc/flappy-bird',
-    demo: 'https://dribbble.com'
+    demo: 'https://github.com/jonathanwangyc/flappy-bird'
   },
   {
     id: 3,
     image: IMG3,
     title: 'Discord Bot',
     github: 'https://github.com/jonathanwangyc/discord-nim-bot',
-    demo: 'https://dribbble.com'
+    demo: 'https://github.com/jonathanwangyc/discord-nim-bot'
   },
   {
     id: 4,
     image: IMG4,
     title: 'CIFAR10 Image Classification',
     github: 'https://github.com/jonathanwangyc/CIFAR10-image-classification',
-    demo: 'https://dribbble.com'
+    demo: 'https://github.com/jonathanwangyc/CIFAR10-image-classification'
   },
   {
     id: 5,
     image: IMG5,
     title: 'Neural Style Transfer',
     github: 'https://github.com/jonathanwangyc/neural-style-transfer',
-    demo: 'https://dribbble.com'
+    demo: 'https://github.com/jonathanwangyc/neural-style-transfer'
   },
   {
     id: 6,
     image: IMG6,
     title: 'Spam Detector',
     github: 'https://github.com/jonathanwangyc/spam-detector',
-    demo: 'https://dribbble.com'
+    demo: 'https://github.com/jonathanwangyc/spam-detector'
   },
 ]
 
@@ -69,7 +69,7 @@ const Portfolio = () => {
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
                 <a href={github} className='btn'>Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank'>Demo (None)</a>
+                <a href={demo} className='btn btn-primary' target='_blank'>Demo</a>
               </div>
             </article>
             )
