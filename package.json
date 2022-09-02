@@ -1,6 +1,6 @@
 {
-  "name": "https://jonathanwangyc.github.io/personal-react-website",
-  "homepage": "",
+  "name": "react-portfolio-website",
+  "homepage": "https://jonathanwangyc.github.io/personal-react-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
