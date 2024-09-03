@@ -1,77 +1,100 @@
-import React from 'react'
-import './services.css'
-import {BiCheck} from 'react-icons/bi'
+import React from "react";
+import "./services.css";
 
 const Services = () => {
   return (
-    <section id='services'>
+    <section id="services">
       <h5>What experiences I have </h5>
       <h2>Leadership & Activities</h2>
 
       <div className="container services__container">
-        <article className='service'>
+        <article className="service">
           <div className="service__head">
-            <h3>Illinois Geometry Lab - Quantum Information Theory</h3>
+            <h3>PeopleWeave Project - Caesar Research Group</h3>
           </div>
-          
-          <ul className='service__list'>
+
+          <ul className="service__list">
             <li>
               {/* <BiCheck className='service__list-icon'/> */}
               <p>⚬</p>
-              <p>Analyze quantum capacity bounds using semidefinite programming.</p>
+              <p>
+                Developed an interactive coauthorship network frontend using
+                React and visualizing libraries.
+              </p>
             </li>
             <li>
-            <p>⚬</p>
-              <p>Express the capacity of Werner-Helevo channel families in finite dimensions as a solution of an optimization problem.</p>
+              <p>⚬</p>
+              <p>
+                Designed and deployed a large graph database using Neo4j with
+                over 100k relationships.
+              </p>
             </li>
             <li>
-            <p>⚬</p>
-              <p>Learn the basics of QIT through research papers. (Quantum systems, states, channels: Choi isomorphism, Krauss representation, Entanglement breaking channel)</p>
+              <p>⚬</p>
+              <p>
+                Preprocessed raw data entries and implemented graph algorithms
+                to support searching functionalities.
+              </p>
             </li>
           </ul>
         </article>
         {/* END OF FIRST PART */}
-        <article className='service'>
+        <article className="service">
           <div className="service__head">
-            <h3>Orientation Leader (OL)</h3>
+            <h3>ATLAS - College of Liberal Arts & Sciences</h3>
           </div>
-          
-          <ul className='service__list'>
+
+          <ul className="service__list">
             <li>
               <p>⚬</p>
-              <p>Design, implement, and assist orientation programs and welcoming week events (sights & sounds, new student convocation, campus tours) for over 8000 new students coming to the University.</p>
+              <p>
+                Redesigned spotlight page for ATLAS website using HTML/CSS and
+                WordPress.
+              </p>
             </li>
             <li>
               <p>⚬</p>
-              <p>Training through LEAD 140: Harnessing Your Interpersonal Intelligence to get ready for the position.</p>
+              <p>
+                Added new functionalities and updated faculty websites using
+                HTML/CSS and WordPress.
+              </p>
             </li>
           </ul>
         </article>
         {/* END OF SECOND PART */}
-        <article className='service'>
+        <article className="service">
           <div className="service__head">
-            <h3>Taiwanese Student Association</h3>
+            <h3>Quantum Information Theory - Illinois Geometry Lab</h3>
           </div>
-          
-          <ul className='service__list'>
+
+          <ul className="service__list">
             <li>
-            <p>⚬</p>
-              <p>Promote Taiwanese culture awareness through activities with 100+ participants (mid Autumn festival, Chinese New Year, night market).</p>
+              <p>⚬</p>
+              <p>
+                Analyzed quantum capacity bounds of finite-dimension
+                Werner-Helevo channel families.
+              </p>
             </li>
             <li>
-            <p>⚬</p>
-              <p>Organize social events to connect people inside of the association.</p>
+              <p>⚬</p>
+              <p>
+                Solved quantum capacity bounds using semidefinite programming
+                and Python by transforming it into an optimization problem.
+              </p>
             </li>
             <li>
-            <p>⚬</p>
-              <p>Assist 200+ incoming students to ensure a smooth transfer.</p>
+              <p>⚬</p>
+              <p>
+                Studied research papers to find supporting evidence and prepared
+                for presentation.
+              </p>
             </li>
           </ul>
         </article>
         {/* END OF THIRD PART */}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

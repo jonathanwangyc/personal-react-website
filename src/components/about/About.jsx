@@ -1,14 +1,13 @@
-import React from 'react'
-import './about.css'
-import ME from '../../asset/self.png'
-import {FaAward} from 'react-icons/fa'
+import React from "react";
+import { FaAward } from "react-icons/fa";
+import ME from "../../asset/self.png";
+import "./about.css";
 // import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
-import {VscBook} from 'react-icons/vsc'
+import { VscBook, VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
-    <section id='about'>
+    <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
@@ -21,35 +20,41 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className='about__card'>
-              <FaAward className='about__icon'/>
+            <article className="about__card">
+              <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>Research & Internships</small>
             </article>
 
-            <article className='about__card'>
-              <VscBook className='about__icon'/>
+            <article className="about__card">
+              <VscBook className="about__icon" />
               <h5>Education</h5>
               <small>University of Illinois</small>
             </article>
 
-            <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
+            <article className="about__card">
+              <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>Completed multiple projects</small>
+              <small>Completed multiple full-stack projects</small>
             </article>
           </div>
-          <br/>
+          <br />
           <p>
-            I am a Junior majoring in Computer Science and Mathematics at the University of Illinois Urbana-Champaign! I'm currently a web development intern at ATLAS at UIUC. I'm interested in artificial intelligence, machine learning, full stack development, and data science. I'm open to new opportunities and have strong eager to learn new things.
+            I am a first-year Master's student majoring in Computer Science at
+            the University of Illinois Urbana-Champaign! I'm interested in
+            back-end development, machine learning, and data science. I'm open
+            to new opportunities for internships and full-time jobs and am eager
+            to learn new things.
           </p>
-          <br/>
+          <br />
 
-          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;
